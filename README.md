@@ -61,19 +61,21 @@ Installation Instructions :
   Prerequisites: Node.js installed on your system.
 
   1) Clone the Repository:
-       git clone https://github.com/Sahitya90/expense-tracker
+       git clone https://github.com/Sahitya90/expense-tracker.git
        cd expense-tracker
 
   2) Start the Backend Server :
        First locate to the Services folder :
-           1) cd src
-           2) cd Services
-           3) npm i express
-           4) node Backend.js
+           1) cd expense-tracker     
+           2) cd src
+           3) cd Services
+           4) npm i express
+           5) node Backend.js
 
      (The Backend server runs on http://localhost:5000)
 
   4) Start the Frontend Development Server
+        cd expense-tracker
         npm install
         npm run dev
 
