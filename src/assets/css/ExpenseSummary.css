@@ -1,0 +1,90 @@
+.expense-summary-container {
+    background: #ffffff;
+    padding: 1.8rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 90%;
+    margin-top: 2rem;
+    border: 1px solid #e2e8f0;
+}
+
+.expense-summary-container h3 {
+    margin-bottom: 1.2rem;
+    color: #2d3748;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.summary-cards-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.summary-card {
+    flex: 1;
+    background: #f7fafc;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.card-title {
+    font-size: 0.85rem;
+    color: #718096;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.card-value {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2d3748;
+}
+
+.category-breakdown h4 {
+    font-size: 1.1rem;
+    color: #4a5568;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid #edf2f7;
+    padding-bottom: 0.4rem;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.category-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8fafc;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    border-left: 4px solid #3182ce;
+}
+
+.cat-name {
+    font-weight: 500;
+    color: #2d3748;
+}
+
+.cat-amount {
+    font-weight: 600;
+    color: #2b6cb0;
+}
+
+.no-data {
+    color: #a0aec0;
+    font-size: 0.95rem;
+    font-style: italic;
+}

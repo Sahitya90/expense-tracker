@@ -1,0 +1,27 @@
+.center h1{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+.navbar{
+    height: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px black;
+    padding: 0 2rem;
+   
+}
+
+.right h2{
+    text-align: right;
+    margin-right: 50px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: hsl(0, 82%, 46%);
+}

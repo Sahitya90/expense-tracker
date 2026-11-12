@@ -1,0 +1,105 @@
+.expense-list-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.expense-list-container h3 {
+  font-size: 1.2rem;
+  color: #113d88;
+  margin-bottom: 12px;
+}
+
+.expense-card-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expense-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 14px 18px;
+  cursor: pointer; 
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  ;
+}
+
+.expense-card:hover {
+  background-color: #f7fafc;
+  border-color: #cbd5e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+.expense-summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense-name{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #335083;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.amount{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e53e3e;
+}
+
+.details-dropdown {
+  margin-top: 12px;
+  background-color: rgb(227, 219, 219);
+  padding-top: 12px;
+  border-top: 1px solid #edf2f7;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.details-dropdown p{
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+    color: green;
+}
+
+
+
+.btn-modify {
+  background-color: #ed8936;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.btn-modify:hover {
+  background-color: #dd6b20;
+}
+
+.btn-delete {
+  background-color: #e53e3e;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-delete:hover {
+  background-color: #c53030;
+}
