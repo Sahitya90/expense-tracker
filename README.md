@@ -68,11 +68,12 @@ Installation Instructions :
        First locate to the Services folder :
            1) cd src
            2) cd Services
-           3) node Backend.js
+           3) npm i express
+           4) node Backend.js
 
      (The Backend server runs on http://localhost:5000)
 
-  3) Start the Frontend Development Server
+  4) Start the Frontend Development Server
         npm install
         npm run dev
 
